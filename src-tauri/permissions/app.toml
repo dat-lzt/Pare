@@ -1,0 +1,20 @@
+[[permission]]
+identifier = "allow-open-output"
+description = "Pare window commands"
+commands.allow = [
+  "default_output",
+  "inspect",
+  "validate_output",
+  "load_settings",
+  "save_settings",
+  "engine_versions",
+  "start_batch",
+  "enqueue_jobs",
+  "cancel_batch",
+  "remove_waiting",
+  "open_output",
+  "save_copy",
+  "export_zip",
+  "read_preview",
+  "read_thumbnail",
+]

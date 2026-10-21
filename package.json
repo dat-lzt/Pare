@@ -1,0 +1,29 @@
+{
+  "name": "pare",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "stage-engines": "python3 scripts/stage-engines.py",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "dist": "PATH=\"$HOME/.cargo/bin:$PATH\" tauri build && bash scripts/make-dmg.sh"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "pinia": "^2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@vitejs/plugin-vue": "^5",
+    "typescript": "~5.6.3",
+    "vite": "^6",
+    "vue-tsc": "^2"
+  },
+  "packageManager": "pnpm@10.5.2+sha1.ca68c0441df195b7e2992f1d1cb12fb731f82d78"
+}

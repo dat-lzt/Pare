@@ -1,0 +1,20 @@
+{
+  "engines": [
+    "oxipng",
+    "pngquant",
+    "zopflipng",
+    "jpegtran",
+    "jpegoptim",
+    "gifsicle",
+    "svgcleaner",
+    "cwebp",
+    "gif2webp",
+    "cjpeg"
+  ],
+  "resolve": [
+    "PARE_ENGINES",
+    "resources/engines",
+    "PATH",
+    "/Applications/ImageOptim.app/Contents/Frameworks/ImageOptimGPL.framework/Versions/A/Resources"
+  ]
+}
